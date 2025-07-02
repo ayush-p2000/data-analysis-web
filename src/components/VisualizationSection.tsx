@@ -87,8 +87,7 @@ const VisualizationSection: React.FC<VisualizationSectionProps> = ({
                         headers={headers}
                         onChartTypeChange={onChartTypeChange}
                         onXAxisChange={onXAxisChange}
-                        onYAxisChange={onYAxisChange}
-                    />
+                        onYAxisChange={onYAxisChange} isYAxisNumeric={false}                    />
                 </div>
             )}
 
